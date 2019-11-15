@@ -168,12 +168,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -187,8 +187,8 @@ Canvas:
   m_GameObject: {fileID: 352888304}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1477005142}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -263,8 +263,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EuropeanCountryDataSet:
+  - Name: Bulgaria
+    Flag: {fileID: 21300000, guid: 3895f7462add10f4195566b75262d74e, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Germany
+    Flag: {fileID: 21300000, guid: 99da2567d5196f242bbe5be60c9b2539, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Italy
+    Flag: {fileID: 21300000, guid: 8fdcb10ee7300084a8e5bfb270bd4b6a, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Latvia
+    Flag: {fileID: 21300000, guid: c654a7ae9d502cf458fd56cdb5f571cb, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Kazakhstan
+    Flag: {fileID: 21300000, guid: 395e26c7b27a893409452a7f3a1d329b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Iceland
+    Flag: {fileID: 21300000, guid: 79c0e49490fe15c44ad0328891070939, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Lachtenstein
+    Flag: {fileID: 21300000, guid: e18ca35a80be832448471d619f189dfe, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Romania
+    Flag: {fileID: 21300000, guid: 18a90befcb43dbe469ea0a07b1c7dc66, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Macedonia
+    Flag: {fileID: 21300000, guid: 3c3620472854032409c870cc42a2b97c, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: UnitedKingdom
+    Flag: {fileID: 21300000, guid: 068200b7ac0eb3a43b1fd7997577c5e3, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: Portugal
+    Flag: {fileID: 21300000, guid: 049d5af45fb3bc347b1054078b84e64b, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 8d04448a703cc9c468358824793b93d8, type: 3}
+    Guessed: 0
+    BeenQuestioned: 0
+  - Name: 
+    Flag: {fileID: 21300000, guid: 1aa53446e01f05b478fafeeb30418be8, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
@@ -272,119 +320,71 @@ MonoBehaviour:
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: c5fee10329f1fa443b8bd590fd537343, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 18fff2a4499b409459ed8394b28ee3fe, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 163655362a8400f42815bcd6bab6af4f, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 50c31f85bc4cd1949b6d51a95a621fb6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 34fc2a5d56aa3d94aa5831e510c88fb5, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 93e1f91fb9d2a8149a7ac0c6c0de2b3c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: c654a7ae9d502cf458fd56cdb5f571cb, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: fce909646974d3846bfbb24e854b0f82, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: d97c88e2ad190fb4e95b9dd0e959b6f6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 166e7b2a1cbcabd49bef5f133a11e5d4, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: eb2fb56fcb022c741bee0d94e5c8b69c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: c497b23aae91d274e96ddff6b6d0594c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 76afb7737eb86094e958a1153be3ea84, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 476a42a3765680e43a3afb3ed6ed1c10, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 0e85cfc7c871a6349b9b5a1cabb9cbed, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: c96b03678e86bfd4584426bfb79a895b, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+    Flag: {fileID: 21300000, guid: 7b250eae698a8f449b49b25ea59c69bf, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   - Name: 
