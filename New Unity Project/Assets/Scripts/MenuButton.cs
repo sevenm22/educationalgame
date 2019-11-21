@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuButton : MonoBehaviour
 {
+    public GameObject mGuiPanel;
 
     // Use this for initialization
     void Start()
@@ -21,4 +22,27 @@ public class MenuButton : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void ShowGameModePanel()
+    {
+        mGuiPanel.SetActive(true);
+    }
+
+    public void HideGameModePanel()
+    {
+        mGuiPanel.SetActive(false);
+    }
+
+    public void StartTimeTrail()
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.TIME_TRAIL_MODE);
+        LoadScene(GameSettings.Instance.GetContinentSceneName());
+    }
+
+    public void StartSurvivalGame()
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.SURVIVAL_MODE);
+        LoadScene(GameSettings.Instance.GetContinentSceneName());
+    }
 }
+

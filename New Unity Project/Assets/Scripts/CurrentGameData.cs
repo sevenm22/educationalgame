@@ -16,6 +16,10 @@ public class CurrentGameData : MonoBehaviour
     // Start is called before the first frame update
     private bool GameFinished = false;
 
+    public void ResetGameOver() { GameFinished = false; }
+    public bool HasGameFinished() { return GameFinished; }
+    public void SetGameOver() { GameFinished = true; }
+
     public void Awake()
     {
         DontDestroyOnLoad(this);

@@ -18,6 +18,8 @@ public class Checkbox : MonoBehaviour
         m_animationCompleted = false;
         m_image = gameObject.GetComponentInChildren<Image>();
         CustomizeAnimation();
+        m_image.fillAmount = m_FillAmount;
+        CustomizeAnimation();
     }
 
     // Update is called once per frame

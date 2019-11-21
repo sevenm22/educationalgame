@@ -47,8 +47,25 @@ public class GameData : MonoBehaviour
 
     public void AssignArrayOfCountry()
     {
-        CountryDataSet = new CountryData[EuropeanCountryDataSet.Length];
-        EuropeanCountryDataSet.CopyTo(CountryDataSet, 0);
+        switch (GameSettings.Instance.GetEContinentType())
+        {
+            case GameSettings.EContinentType.E_EUROPE:
+                CountryDataSet = new CountryData[EuropeanCountryDataSet.Length];
+                EuropeanCountryDataSet.CopyTo(CountryDataSet, 0);
+                break;
+            case GameSettings.EContinentType.E_ASIA:
+                CountryDataSet = new CountryData[AsiaCountryDataSet.Length];
+                AsiaCountryDataSet.CopyTo(CountryDataSet, 0);
+                break;
+            case GameSettings.EContinentType.E_AFRICA:
+                CountryDataSet = new CountryData[AfricaCountryDataSet.Length];
+                AfricaCountryDataSet.CopyTo(CountryDataSet, 0);
+                break;
+
+
+
+        }
+
 
     }
 

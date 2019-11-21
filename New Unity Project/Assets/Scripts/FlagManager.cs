@@ -53,16 +53,30 @@ public class FlagManager : MonoBehaviour
                 FlagsObjects[0].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFinalFlagIndex());
                 FlagsObjects[1].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFirstFlagIndex());
                 FlagsObjects[2].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetSecondFlagIndex());
+
+                FlagsObjects[0].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFinalFlagIndex());
+                FlagsObjects[1].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFirstFlagIndex());
+                FlagsObjects[2].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetSecondFlagIndex());
                 break;
             case 1:
                 FlagsObjects[0].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFirstFlagIndex());
                 FlagsObjects[1].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFinalFlagIndex());
                 FlagsObjects[2].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetSecondFlagIndex());
+
+                FlagsObjects[0].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFirstFlagIndex());
+                FlagsObjects[1].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFinalFlagIndex());
+                FlagsObjects[2].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetSecondFlagIndex());
+                break;
+
                 break;
             case 2:
                 FlagsObjects[0].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFirstFlagIndex());
                 FlagsObjects[1].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetSecondFlagIndex());
                 FlagsObjects[2].GetComponent<SpriteRenderer>().sprite = m_GameData.GetFlagSpriteIndex(m_GameData.GetFinalFlagIndex());
+
+                FlagsObjects[0].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFirstFlagIndex());
+                FlagsObjects[1].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetSecondFlagIndex());
+                FlagsObjects[2].GetComponent<SevenFlag>().SetFlagIndex(m_GameData.GetFinalFlagIndex());
                 break;
         }
     }
