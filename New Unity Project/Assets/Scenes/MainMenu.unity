@@ -307,164 +307,164 @@ MonoBehaviour:
     Flag: {fileID: 21300000, guid: 049d5af45fb3bc347b1054078b84e64b, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Andorra
     Flag: {fileID: 21300000, guid: 8d04448a703cc9c468358824793b93d8, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Albania
     Flag: {fileID: 21300000, guid: 1aa53446e01f05b478fafeeb30418be8, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Vatican
+    Flag: {fileID: 21300000, guid: 6d3ef27d92709b945b6ce5472f91e8eb, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Austria
     Flag: {fileID: 21300000, guid: c5fee10329f1fa443b8bd590fd537343, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Azerbaijan
     Flag: {fileID: 21300000, guid: 18fff2a4499b409459ed8394b28ee3fe, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Bosnia and Herzegovina
     Flag: {fileID: 21300000, guid: 163655362a8400f42815bcd6bab6af4f, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Croatia
     Flag: {fileID: 21300000, guid: 50c31f85bc4cd1949b6d51a95a621fb6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Cyprus
     Flag: {fileID: 21300000, guid: 34fc2a5d56aa3d94aa5831e510c88fb5, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Kosovo
     Flag: {fileID: 21300000, guid: 93e1f91fb9d2a8149a7ac0c6c0de2b3c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Latvia
     Flag: {fileID: 21300000, guid: c654a7ae9d502cf458fd56cdb5f571cb, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Liuthuania
     Flag: {fileID: 21300000, guid: fce909646974d3846bfbb24e854b0f82, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Luxenburg
     Flag: {fileID: 21300000, guid: d97c88e2ad190fb4e95b9dd0e959b6f6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Ireland
     Flag: {fileID: 21300000, guid: 166e7b2a1cbcabd49bef5f133a11e5d4, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Greece
     Flag: {fileID: 21300000, guid: eb2fb56fcb022c741bee0d94e5c8b69c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Georgia
     Flag: {fileID: 21300000, guid: c497b23aae91d274e96ddff6b6d0594c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: France
     Flag: {fileID: 21300000, guid: 76afb7737eb86094e958a1153be3ea84, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Finland
     Flag: {fileID: 21300000, guid: 476a42a3765680e43a3afb3ed6ed1c10, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Estonia
     Flag: {fileID: 21300000, guid: 0e85cfc7c871a6349b9b5a1cabb9cbed, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: Denmark
     Flag: {fileID: 21300000, guid: c96b03678e86bfd4584426bfb79a895b, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
+  - Name: CzechRepublic
     Flag: {fileID: 21300000, guid: 7b250eae698a8f449b49b25ea59c69bf, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Ukraine
+    Flag: {fileID: 21300000, guid: 373fc34c15baa984ab623e64cce3cb34, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Turkey
+    Flag: {fileID: 21300000, guid: 32d0f859d4505c74bb3531740452aa3b, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Switzerland
+    Flag: {fileID: 21300000, guid: 2b834195fb92dfb40af25c262d32cdd3, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Sweden
+    Flag: {fileID: 21300000, guid: 664bce5465bc04049a9fadb4e897c143, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Spain
+    Flag: {fileID: 21300000, guid: c41a0765876da2c43bcfa7b4726cc30f, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Slovenia
+    Flag: {fileID: 21300000, guid: fd9e59132e4cb7540869cd423cea8cfa, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Slovakia
+    Flag: {fileID: 21300000, guid: 40868734d3f3715478c869c1eaa5db47, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Serbia
+    Flag: {fileID: 21300000, guid: 1ae12bece5a28dd489e888904ba6602d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: SanMarino
+    Flag: {fileID: 21300000, guid: 5784c1ae9ed48644693ebc8ab66da856, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Russia
+    Flag: {fileID: 21300000, guid: b8718015e25431a48b7b8095f857f3b0, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Ireland
+    Flag: {fileID: 21300000, guid: 166e7b2a1cbcabd49bef5f133a11e5d4, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Armenia
+    Flag: {fileID: 21300000, guid: 7d4b4ac7929b92b4186a6f852da01768, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Belarus
+    Flag: {fileID: 21300000, guid: e5620e2abe1b3784fad44cf815b4584a, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Hungary
+    Flag: {fileID: 21300000, guid: 0030eb092af0a754589f4df6310a0541, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Netherlands
+    Flag: {fileID: 21300000, guid: 745b38572e3d9044f92e649592d3c3b6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Montenegro
+    Flag: {fileID: 21300000, guid: 5ee04bf84b6b704478301a77093969b3, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Malta
+    Flag: {fileID: 21300000, guid: d82de9b4db13ffe408529a8dde22d822, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Poland
+    Flag: {fileID: 21300000, guid: c8bfa72d5555103469de1b07dce81fb6, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Spain
+    Flag: {fileID: 21300000, guid: c41a0765876da2c43bcfa7b4726cc30f, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: Norway
+    Flag: {fileID: 21300000, guid: 5985738b438ca274981b11102882d460, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   AsiaCountryDataSet:
@@ -917,8 +917,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1544926693}
+  m_Children: []
   m_Father: {fileID: 352888308}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1131,85 +1130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mGuiPanel: {fileID: 0}
---- !u!1 &1544926692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1544926693}
-  - component: {fileID: 1544926695}
-  - component: {fileID: 1544926694}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1544926693
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544926692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1409370783}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1544926694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544926692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Button
---- !u!222 &1544926695
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544926692}
-  m_CullTransparentMesh: 0
 --- !u!1 &1620269143
 GameObject:
   m_ObjectHideFlags: 0

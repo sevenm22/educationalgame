@@ -161,6 +161,8 @@ public class CurrentGameData : MonoBehaviour
     {
         return GameData.Instance.CountrySetPerGame[FlagIndex].Flag;
     }
+
+    public int GetFlagNumber() { return GameData.Instance.CountryDataSet.Length; }
 }
 
 

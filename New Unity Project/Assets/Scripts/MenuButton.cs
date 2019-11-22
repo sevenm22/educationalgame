@@ -44,5 +44,11 @@ public class MenuButton : MonoBehaviour
         GameSettings.Instance.SetGameMode(GameSettings.EGameMode.SURVIVAL_MODE);
         LoadScene(GameSettings.Instance.GetContinentSceneName());
     }
+
+    public void StartShortGame()
+    {
+        GameSettings.Instance.SetGameMode(GameSettings.EGameMode.SHORT_MODE);
+        LoadScene(GameSettings.Instance.GetContinentSceneName());
+    }
 }
 

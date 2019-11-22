@@ -18,6 +18,7 @@ public class CountDownTimer : MonoBehaviour
     public GameObject CorrectGuessedText;
     public GameObject WrongGuessedText;
 
+    private Scores m_Scores;
     private bool EndGuiActivated; 
 
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class CountDownTimer : MonoBehaviour
         StartedGameOverTimer = false;
         EndGuiActivated = false;
         m_GameData = GameObject.Find("GameDataObject").GetComponent<CurrentGameData>() as CurrentGameData;
-        
+        m_Scores = GameObject.Find("Main Camera").GetComponent<Scores>() as Scores;
         if (GameSettings.Instance.GetGameMode() == GameSettings.EGameMode.TIME_TRAIL_MODE)
             this.enabled = true;
         else
@@ -76,6 +77,9 @@ public class CountDownTimer : MonoBehaviour
 
     private void ActivateGameOverGui()
     {
+        CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
+        WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
+
         GameOverPanel.SetActive(true);
         EndGuiActivated = true;
     }

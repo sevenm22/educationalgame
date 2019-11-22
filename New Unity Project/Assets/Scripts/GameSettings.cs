@@ -12,6 +12,7 @@ public class GameSettings : MonoBehaviour
         NOTE_SET,
         TIME_TRAIL_MODE, //play until time expired
         SURVIVAL_MODE, //three lives
+        SHORT_MODE, //15 questions
     }
 
     public enum EContinentType
