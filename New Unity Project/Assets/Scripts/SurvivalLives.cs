@@ -10,6 +10,9 @@ public class SurvivalLives : MonoBehaviour
     public GameObject GameOverPanel;
     public GameObject CorrectGuessedText;
     public GameObject WrongGuessedText;
+    public GameObject CountryFlag;
+    public GameObject CountryFlag1;
+    public GameObject CountryFlag2;
 
     private Scores m_Scores;
 
@@ -54,6 +57,9 @@ public class SurvivalLives : MonoBehaviour
             CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
             WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
             GameOverPanel.SetActive(true);
+            CountryFlag.SetActive(false);
+            CountryFlag1.SetActive(false);
+            CountryFlag2.SetActive(false);
             m_GameData.SetGameOver();
         }
     }

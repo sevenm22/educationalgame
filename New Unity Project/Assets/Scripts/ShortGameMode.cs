@@ -9,6 +9,9 @@ public class ShortGameMode : MonoBehaviour
     public List<GameObject> Questions;
     public Sprite CorrectSprite;
     public Sprite WrongSprite;
+    public GameObject CountryFlag;
+    public GameObject CountryFlag1;
+    public GameObject CountryFlag2;
     public GameObject GameOverPanel;
 
     public GameObject CorrectGuessedText;
@@ -62,6 +65,10 @@ public class ShortGameMode : MonoBehaviour
             WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
 
             GameOverPanel.SetActive(true);
+            CountryFlag.SetActive(false);
+            CountryFlag1.SetActive(false);
+            CountryFlag2.SetActive(false);
+
             m_GameData.SetGameOver();
 
             foreach (GameObject o in Questions)

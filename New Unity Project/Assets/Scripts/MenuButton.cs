@@ -50,5 +50,10 @@ public class MenuButton : MonoBehaviour
         GameSettings.Instance.SetGameMode(GameSettings.EGameMode.SHORT_MODE);
         LoadScene(GameSettings.Instance.GetContinentSceneName());
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
 
