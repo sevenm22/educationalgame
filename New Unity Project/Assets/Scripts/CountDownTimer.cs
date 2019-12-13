@@ -17,6 +17,9 @@ public class CountDownTimer : MonoBehaviour
     public GameObject GameOverPanel;
     public GameObject CorrectGuessedText;
     public GameObject WrongGuessedText;
+    public GameObject CountryFlag;
+    public GameObject CountryFlag1;
+    public GameObject CountryFlag2;
 
     private Scores m_Scores;
     private bool EndGuiActivated; 
@@ -81,6 +84,9 @@ public class CountDownTimer : MonoBehaviour
         WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
 
         GameOverPanel.SetActive(true);
+        CountryFlag.SetActive(false);
+        CountryFlag1.SetActive(false);
+        CountryFlag2.SetActive(false);
         EndGuiActivated = true;
     }
 }

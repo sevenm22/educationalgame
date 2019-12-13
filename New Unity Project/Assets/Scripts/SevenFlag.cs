@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SevenFlag : MonoBehaviour {
+public class SevenFlag : MonoBehaviour
+{
 
     private FlagManager m_FlagManager;
 
@@ -20,8 +21,9 @@ public class SevenFlag : MonoBehaviour {
     private ShortGameMode m_ShortGame;
 
     [HideInInspector]
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         m_FlagManager = GameObject.Find("Main Camera").GetComponent<FlagManager>() as FlagManager;
         m_Checkbox = GameObject.Find("Checkbox").GetComponent<Checkbox>() as Checkbox;
         m_GameData = GameObject.Find("GameDataObject").GetComponent<CurrentGameData>() as CurrentGameData;
@@ -29,11 +31,12 @@ public class SevenFlag : MonoBehaviour {
         m_ShortGame = GameObject.Find("Main Camera").GetComponent<ShortGameMode>() as ShortGameMode;
         m_Scores = GameObject.Find("Main Camera").GetComponent<Scores>() as Scores;
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        if(LoadNewGame == true && ButtonPressed == false)
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (LoadNewGame == true && ButtonPressed == false)
         {
             if (m_Checkbox.AnimationCompleted())
             {
@@ -42,12 +45,12 @@ public class SevenFlag : MonoBehaviour {
                 m_Checkbox.Clear();
             }
         }
-		
-	}
+
+    }
 
     private void OnMouseDown()
     {
-        if(ButtonPressed == false && m_GameData.HasGameFinished() == false)
+        if (ButtonPressed == false && m_GameData.HasGameFinished() == false)
         {
             if (FlagIndex == m_GameData.GetFinalFlagIndex())
             {
@@ -61,20 +64,21 @@ public class SevenFlag : MonoBehaviour {
             else
             {
                 m_Scores.AddWrongScore();
-                if(GameSettings.Instance.GetGameMode() == GameSettings.EGameMode.SURVIVAL_MODE)
+                if (GameSettings.Instance.GetGameMode() == GameSettings.EGameMode.SURVIVAL_MODE)
                 {
                     m_SurvivalLifes.RemoveLife();
                 }
-               else if (GameSettings.Instance.GetGameMode() == GameSettings.EGameMode.SHORT_MODE)
+                else if (GameSettings.Instance.GetGameMode() == GameSettings.EGameMode.SHORT_MODE)
                 {
                     m_ShortGame.Rotate(false);
                 }
-                    m_Checkbox.Wrong();
+                m_Checkbox.Wrong();
             }
+
             LoadNewGame = true;
         }
 
-        StartCoroutine(Sleep());
+        if (gameObject.activeSelf) StartCoroutine(Sleep());
     }
 
     public void SetFlagIndex(int index)
@@ -87,5 +91,11 @@ public class SevenFlag : MonoBehaviour {
         ButtonPressed = true;
         yield return new WaitForSeconds(0.5f);
         ButtonPressed = false;
+    }
+
+    public void OnDisable()
+    {
+        Debug.Log("Bug");
+        StopAllCoroutines();
     }
 }

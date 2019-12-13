@@ -971,6 +971,9 @@ MonoBehaviour:
   GameOverPanel: {fileID: 979330641}
   CorrectGuessedText: {fileID: 1311733031}
   WrongGuessedText: {fileID: 1967216908}
+  CountryFlag: {fileID: 1524219840}
+  CountryFlag1: {fileID: 778187634}
+  CountryFlag2: {fileID: 1207134207}
 --- !u!114 &519420035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2430,9 +2433,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 913.3, y: -1071.8}
-  m_SizeDelta: {x: 2111.7, y: 1780.6}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3424.5889, y: 1367.6216}
+  m_SizeDelta: {x: 2195.58, y: 1780.6}
+  m_Pivot: {x: 1.63, y: 1.87}
 --- !u!114 &1876315355
 MonoBehaviour:
   m_ObjectHideFlags: 0
