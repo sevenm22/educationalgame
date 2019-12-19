@@ -41,17 +41,79 @@ public class SurvivalLives : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameSettings.EContinentType.E_EUROPE == GameSettings.Instance.GetEContinentType())
+        {
+            if (m_Scores.GetCurrentScore() == 51)
+            {
+                CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
+                WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
+                GameOverPanel.SetActive(true);
+                CountryFlag.SetActive(false);
+                CountryFlag1.SetActive(false);
+                CountryFlag2.SetActive(false);
+                Hearts[LifeNumber].SetActive(false);
+                m_GameData.SetGameOver();
+            }
+        }
+
+                if (GameSettings.EContinentType.E_ASIA == GameSettings.Instance.GetEContinentType())
+        {
+            if (m_Scores.GetCurrentScore() == 30)
+            {
+                CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
+                WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
+                GameOverPanel.SetActive(true);
+                CountryFlag.SetActive(false);
+                CountryFlag1.SetActive(false);
+                CountryFlag2.SetActive(false);
+                Hearts[LifeNumber].SetActive(false);
+                m_GameData.SetGameOver();
+            }
+        }
+
+        if (GameSettings.EContinentType.E_AFRICA == GameSettings.Instance.GetEContinentType())
+        {
+            if (m_Scores.GetCurrentScore() == 23)
+            {
+                CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
+                WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
+                GameOverPanel.SetActive(true);
+                CountryFlag.SetActive(false);
+                CountryFlag1.SetActive(false);
+                CountryFlag2.SetActive(false);
+                Hearts[LifeNumber].SetActive(false);
+                m_GameData.SetGameOver();
+            }
+        }
+    }
+
+   /* public void EnddGame()
+    {
+        if (GameSettings.EContinentType.E_AFRICA == GameSettings.Instance.GetEContinentType())
+        {
+            if (m_Scores.GetCurrentScore() == 23)
+            {
+                CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
+                WrongGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentWrongScore().ToString();
+                GameOverPanel.SetActive(true);
+                CountryFlag.SetActive(false);
+                CountryFlag1.SetActive(false);
+                CountryFlag2.SetActive(false);
+                m_GameData.SetGameOver();
+            }
+        }
         
     }
+    */
 
     public void RemoveLife()
     {
-        if(LifeNumber > 0)
+        if (LifeNumber > 0)
         {
             LifeNumber--;
             Hearts[LifeNumber].SetActive(false);
         }
-        if(LifeNumber == 0)
+        if (LifeNumber == 0)
         {
 
             CorrectGuessedText.GetComponent<Text>().text = m_Scores.GetCurrentScore().ToString();
@@ -64,3 +126,4 @@ public class SurvivalLives : MonoBehaviour
         }
     }
 }
+

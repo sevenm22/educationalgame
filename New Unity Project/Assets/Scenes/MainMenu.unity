@@ -381,13 +381,14 @@ GameObject:
   - component: {fileID: 1312632593}
   - component: {fileID: 1312632592}
   - component: {fileID: 1312632591}
+  - component: {fileID: 1312632595}
   m_Layer: 5
-  m_Name: Exit
+  m_Name: quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1312632590
 RectTransform:
   m_ObjectHideFlags: 0
@@ -404,8 +405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.7, y: -296.35}
-  m_SizeDelta: {x: 127.9, y: 123.3}
+  m_AnchoredPosition: {x: -10.8, y: -182.4}
+  m_SizeDelta: {x: 575.97, y: 220.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1312632591
 MonoBehaviour:
@@ -428,9 +429,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -450,8 +451,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1477005144}
-        m_MethodName: Exit
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -459,6 +460,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: PickMenu
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1312632595}
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -496,7 +508,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 6cfa5c862a933e34e91cfd631bb55bf5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58403d5cd8969b54f9595fd55aa3a61d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -514,6 +526,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312632589}
   m_CullTransparentMesh: 0
+--- !u!114 &1312632595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312632589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8612fae1ec63a06489d1caf5556f0cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376729338
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,11 +602,11 @@ MonoBehaviour:
     Flag: {fileID: 21300000, guid: 321efe43f57ac954c9a05879310eb2fd, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 23+15+20+20+34 = ?
+  - Name: 50+50+4 = ?
     Flag: {fileID: 21300000, guid: b666756f0e2eaf7459edc3fdd6a9341c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 15+20+30+18+15 = ?
+  - Name: 40+10+48 = ?
     Flag: {fileID: 21300000, guid: 7c57f0b6817ffd645948a7a30cbf3148, type: 3}
     Guessed: 0
     BeenQuestioned: 0
@@ -590,7 +614,7 @@ MonoBehaviour:
     Flag: {fileID: 21300000, guid: 7bc8ecb7680922948a692db5060845fb, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 20+20+20+32 = ?
+  - Name: 89+3 = ?
     Flag: {fileID: 21300000, guid: f134694d2cffc8e42b8bed3eb8bab124, type: 3}
     Guessed: 0
     BeenQuestioned: 0
@@ -763,421 +787,217 @@ MonoBehaviour:
     Guessed: 0
     BeenQuestioned: 0
   AsiaCountryDataSet:
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 12x0 = ?
+    Flag: {fileID: 21300000, guid: eaed6d7d73bfdc14db56f14aca78c527, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 11x2 = ?
+    Flag: {fileID: 21300000, guid: 871d866737c85374cab92a90d2b4718d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x1 = ?
+    Flag: {fileID: 21300000, guid: 6521357b12763704e9e3a9b84bc0af64, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 1x1 = ?
+    Flag: {fileID: 21300000, guid: b9a127c180bd5bf49b3d3696268b88fa, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x2 = ?
+    Flag: {fileID: 21300000, guid: 4163fb3f2a618964ba6c8ffb0900a36d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 4x2 = ?
+    Flag: {fileID: 21300000, guid: 17da8de6366ff2a4b9159757cb5ca650, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 12x0 = ?
+    Flag: {fileID: 21300000, guid: eaed6d7d73bfdc14db56f14aca78c527, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 3x4 = ?
+    Flag: {fileID: 21300000, guid: 3fc204db307aaad4b94a0e6d43f63af4, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x5 = ?
+    Flag: {fileID: 21300000, guid: a6385dbfcd14b9140b6e2be73ae6b165, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x8 = ?
+    Flag: {fileID: 21300000, guid: 04031b2fa500c8641899103938463ea1, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x10 = ?
+    Flag: {fileID: 21300000, guid: 7eff150dd18bf364bba8bd3b434dc7b7, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 21x2 = ?
+    Flag: {fileID: 21300000, guid: 4bdb0b08554db5c42a6a0bdde5cd28ad, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 5x1 = ?
+    Flag: {fileID: 21300000, guid: 86731edc0cd2a3f4eb37ffe5c951515e, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 3x10 = ?
+    Flag: {fileID: 21300000, guid: f80aa0bd2235f1d4fb5f5fbac17cd947, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 3x3 = ?
+    Flag: {fileID: 21300000, guid: 5db6705a10518a84691a4a4804506fca, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 11x3 = ?
+    Flag: {fileID: 21300000, guid: e4670b34c61d4ba42a611bd11e0d894d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x17 = ?
+    Flag: {fileID: 21300000, guid: ee2483fbb39611c4fb3146fd1ec8349f, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 23 x 2 = ?
+    Flag: {fileID: 21300000, guid: 904bbb8819d85c648b8fe3e591db0729, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 4x10 = ?
+    Flag: {fileID: 21300000, guid: e88c720894eca8f40a3afad1fb4a15db, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 6 x 7 = ?
+    Flag: {fileID: 21300000, guid: 4bdb0b08554db5c42a6a0bdde5cd28ad, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 6x6 = ?
+    Flag: {fileID: 21300000, guid: 06311991e469e044aae2c80beba71ae9, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 5 x 7 = ?
+    Flag: {fileID: 21300000, guid: f58c476c38dc29e4184c985915917a4d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 4x8 = ?
+    Flag: {fileID: 21300000, guid: 87aa173d020d5bd40ac4c312fb224ecb, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 9x6 = ?
+    Flag: {fileID: 21300000, guid: 0d59ef2d74211284991952bf3a8d0ce2, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 6x11 = ?
+    Flag: {fileID: 21300000, guid: a2254f584dddc264b8e01a82c3ba94a9, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 11x7 = ?
+    Flag: {fileID: 21300000, guid: 4ddb1ab0c5ffc9642bce0938d7e27df0, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 2x9 = ?
+    Flag: {fileID: 21300000, guid: a066adc66c9bb0d498c493aecda4dd9c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 5x11 = ?
+    Flag: {fileID: 21300000, guid: 74770ade4dccf224586afea20a4387d3, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 8x8 = ?
+    Flag: {fileID: 21300000, guid: c431cb5b02583ad48a7b8cd2e8609562, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: 3x5 = ?
+    Flag: {fileID: 21300000, guid: 33c8a1f3a6de7fa4997581247a6f4189, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   AfricaCountryDataSet:
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "10 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: 86731edc0cd2a3f4eb37ffe5c951515e, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "12 \xF7 12 = ?"
+    Flag: {fileID: 21300000, guid: b9a127c180bd5bf49b3d3696268b88fa, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "32 \xF7 16 = ? "
+    Flag: {fileID: 21300000, guid: 6521357b12763704e9e3a9b84bc0af64, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "16 \xF7 4 = ?"
+    Flag: {fileID: 21300000, guid: 4163fb3f2a618964ba6c8ffb0900a36d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "18 \xF7 3 = ?"
+    Flag: {fileID: 21300000, guid: 3e3b19e5b9b112a438722758f3ad9632, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "21 \xF7 3 = ?"
+    Flag: {fileID: 21300000, guid: 6bb39d3ad4b3636479d72e5faee351fc, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "32 \xF7 4 = ?"
+    Flag: {fileID: 21300000, guid: 17da8de6366ff2a4b9159757cb5ca650, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "54 \xF7 6 = ?"
+    Flag: {fileID: 21300000, guid: 5db6705a10518a84691a4a4804506fca, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "44 \xF7 4 = ?"
+    Flag: {fileID: 21300000, guid: 0c85280ed7dc5524e99491df54070a81, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "36 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: a066adc66c9bb0d498c493aecda4dd9c, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "72 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: 06311991e469e044aae2c80beba71ae9, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "24 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: 3fc204db307aaad4b94a0e6d43f63af4, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "88 \xF7 4 = ?"
+    Flag: {fileID: 21300000, guid: 871d866737c85374cab92a90d2b4718d, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "84 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: 4bdb0b08554db5c42a6a0bdde5cd28ad, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "66 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: a2254f584dddc264b8e01a82c3ba94a9, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "54 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: 0d59ef2d74211284991952bf3a8d0ce2, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "47 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: 881b51b4337b46e49a51b0180a60c415, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "45 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: f526201fc937a4c4ca761f421266ea23, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "32 \xF7 0 = ?"
+    Flag: {fileID: 21300000, guid: eaed6d7d73bfdc14db56f14aca78c527, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "92 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: f134694d2cffc8e42b8bed3eb8bab124, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "144 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: b633b9ea361a8b4478b8d2616dbcc2ec, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "92 \xF7 2 = ?"
+    Flag: {fileID: 21300000, guid: 904bbb8819d85c648b8fe3e591db0729, type: 3}
     Guessed: 0
     BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
-    Guessed: 0
-    BeenQuestioned: 0
-  - Name: 
-    Flag: {fileID: 0}
+  - Name: "77 \xF7 1 = ?"
+    Flag: {fileID: 21300000, guid: 4ddb1ab0c5ffc9642bce0938d7e27df0, type: 3}
     Guessed: 0
     BeenQuestioned: 0
   CountrySetPerGame: []
@@ -1239,7 +1059,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: defd86a0e13779b46800381f71925a9d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 08a7b224b5043a44093b3c5a71bbbfd3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1290,8 +1110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 127.9, y: 123.3}
+  m_AnchoredPosition: {x: -6.37, y: 17.9}
+  m_SizeDelta: {x: 575.97, y: 220.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409370784
 MonoBehaviour:
@@ -1314,9 +1134,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.91906035, g: 0.9811321, b: 0.041651815, a: 1}
-    m_PressedColor: {r: 0, g: 1, b: 0.87794757, a: 1}
-    m_SelectedColor: {r: 0.31706125, g: 0.5021633, b: 0.8962264, a: 1}
+    m_HighlightedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_SelectedColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1369,7 +1189,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 701d0c4ff241292498b4c00c9e89ff21, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6919f36e8baded846b7646d806d77ed3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1437,7 +1257,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.98039216, g: 0.7921569, b: 0.50980395, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
